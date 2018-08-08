@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-database-connection-11.6.0">
+    <CLASSES>
+      <root url="file://C:/tmpo/SmartMed/Simple-Alarms-master/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/11.6.0/res" />
+      <root url="jar://C:/tmpo/SmartMed/Simple-Alarms-master/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/11.6.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

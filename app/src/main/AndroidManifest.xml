@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.ppartisan.simplealarms">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo"
+        android:label="SmartMeds"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.MainActivity" />
+        <activity android:name=".ui.AddEditAlarmActivity" />
+        <activity
+            android:name=".ui.AlarmLandingPageActivity"
+            android:theme="@style/AlertLandingPageTheme" />
+
+        <service android:name=".service.LoadAlarmsService" />
+
+        <receiver android:name=".service.LoadAlarmsReceiver" />
+        <receiver android:name=".service.AlarmReceiver" />
+
+        <activity
+            android:name=".ui.StartActivity"
+            android:theme="@style/AlertLandingPageTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.DiseaseActivity" android:parentActivityName=".ui.MainActivity" />
+        <activity android:name=".ui.RegisterActivity" />
+        <activity android:name=".ui.LoginActivity" />
+        <activity
+            android:name=".ui.WebmdActivity"
+            android:theme="@style/AlertLandingPageTheme" />
+        <activity
+            android:name=".ui.CommonDiseaseActivity"
+            android:theme="@style/AlertLandingPageTheme" />
+        <activity android:name=".ui.UserActivity"
+            android:theme="@style/AlertLandingPageTheme"></activity>
+    </application>
+
+</manifest>

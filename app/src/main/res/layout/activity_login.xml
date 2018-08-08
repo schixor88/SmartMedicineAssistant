@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LoginActivity">
+
+
+
+    <EditText
+
+        android:layout_marginLeft="8dp"
+        android:id="@+id/login_email"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:layout_marginLeft="8dp"
+        android:layout_below="@+id/login_email"
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:padding="20dp"
+        android:id="@+id/login_button"
+        android:text="Login"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_below="@id/login_button"
+        android:textAllCaps="false"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:textColor="@color/primary_dark"
+        android:text="I need an account"
+        android:id="@+id/goto_reg_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+</RelativeLayout>

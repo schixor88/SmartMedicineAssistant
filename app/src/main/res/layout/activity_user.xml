@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_dark"
+    android:theme="@style/AlertLandingPageTheme"
+    tools:context=".ui.UserActivity">
+
+    <ImageView
+
+        android:id="@+id/user_img"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/meds_icon_pill"
+        android:layout_width="90dp"
+        android:layout_height="90dp" />
+
+    <TextView
+        android:textColor="@color/colorWhite1"
+        android:textSize="23sp"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:text="FULL NAME"
+        android:layout_below="@+id/user_img"
+        android:id="@+id/tv_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorWhite1"
+        android:textSize="22sp"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:text="Username"
+        android:layout_below="@+id/tv_fullname"
+        android:id="@+id/tv_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorWhite1"
+        android:textSize="22sp"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:text="Email"
+        android:layout_below="@+id/tv_username"
+        android:id="@+id/tv_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:textSize="22sp"
+        android:text="LOGOUT"
+        android:layout_marginTop="20dp"
+
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#e74c3c"
+        android:padding="20dp"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/btn_logout"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorWhite1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+</RelativeLayout>

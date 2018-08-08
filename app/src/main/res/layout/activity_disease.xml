@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.DiseaseActivity">
+
+    <Button
+        android:padding="20dp"
+        android:backgroundTint="#00b894"
+        android:textColor="@color/colorWhite1"
+        android:textSize="22sp"
+        android:textAllCaps="false"
+        android:text="Visit WebMd"
+
+        android:id="@+id/btn_webmd"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:padding="20dp"
+        android:backgroundTint="#00b894"
+        android:textColor="@color/colorWhite1"
+        android:layout_below="@+id/btn_webmd"
+        android:textSize="22sp"
+        android:textAllCaps="false"
+        android:text="See Common Diseases"
+
+        android:id="@+id/btn_common"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+</RelativeLayout>

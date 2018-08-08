@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support:recyclerview-v7-25.1.1">
+    <CLASSES>
+      <root url="jar://C:/tmpo/SmartMed/Simple-Alarms-master/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar!/" />
+      <root url="file://C:/tmpo/SmartMed/Simple-Alarms-master/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/25.1.1/recyclerview-v7-25.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/25.1.1/recyclerview-v7-25.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
